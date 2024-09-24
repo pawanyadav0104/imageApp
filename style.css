@@ -88,11 +88,16 @@ form button{
 
 
 
+#search-result {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
 
-
-
-
-
+@media (max-width: 768px) {
+    #search-result {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 .content {
